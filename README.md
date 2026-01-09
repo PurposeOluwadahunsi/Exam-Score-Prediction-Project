@@ -1,4 +1,4 @@
-# Exam Score Prediction 📊
+# Exam Score Prediction Project
 
 This project predicts students’ exam scores using machine learning regression models. It explores both single-feature and multivariate regression to understand how different input variables affect exam performance.
 
