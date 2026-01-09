@@ -1,10 +1,12 @@
-# Exam Score Prediction Project
+# Exam Score Prediction 📊
 
-This project predicts a student’s exam score based on the number of hours studied using machine learning. It was created as a learning project to understand regression models and how study time relates to exam performance.
+This project predicts students’ exam scores using machine learning regression models. It explores both single-feature and multivariate regression to understand how different input variables affect exam performance.
 
 ## Overview
 
-The project explores the relationship between **study hours** and **exam scores**. The data is visualized, regression models are trained, and their performance is evaluated to assess prediction accuracy.
+The project analyzes the relationship between study-related factors and exam scores. The data is explored visually, then multiple regression models are trained and compared to evaluate their performance.
+
+Both **simple regression** and **multivariate regression** approaches are used, along with regularization techniques.
 
 ## Tools and Libraries
 
@@ -19,32 +21,34 @@ The project explores the relationship between **study hours** and **exam scores*
 - Data loading and exploration  
 - Checking for missing values  
 - Data visualization  
+- Feature selection and preparation  
 - Training a Linear Regression model  
+- Training a Multivariate Regression model  
 - Training a Ridge Regression model  
-- Model evaluation  
+- Comparing model performance  
 
 ## Results
 
-The results show a clear linear relationship between study hours and exam scores. This makes linear regression an appropriate model for this problem and allows for reasonable predictions.
+The analysis shows a strong relationship between the input features and exam scores. Multivariate regression improves prediction by considering more than one factor, while Ridge Regression helps control model complexity through regularization. The models perform well and allow meaningful comparison.
 
 ## Limitations
 
-- Only one feature (study hours) is used  
-- Other factors affecting exam scores are not included  
-- Dataset is small and intended for learning purposes  
+- The dataset is relatively small  
+- Only available features in the dataset are used  
+- Results are mainly for learning and experimentation  
 
 ## How to Run the Project
 
 1. Clone the repository  
 2. Open the Jupyter Notebook  
-3. Run the cells step by step  
+3. Run the cells sequentially  
 
 ## Purpose of the Project
 
-This project was built to practice basic machine learning concepts such as regression, model training, evaluation, and data visualization using Python.
+This project was created to practice regression modeling, feature handling, model comparison, and evaluation using Python.
 
 ## Future Improvements
 
-- Add more features to improve prediction accuracy  
-- Experiment with other regression models  
-- Improve model evaluation and comparison  
+- Add more relevant features  
+- Experiment with additional regression techniques  
+- Improve evaluation and validation methods  
